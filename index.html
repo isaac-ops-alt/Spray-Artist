@@ -1398,7 +1398,7 @@ Was given on Wednesday morning and I had the car back by Thursday morning."</div
               <label class="file-upload" for="ffiles" id="fileDropZone">
                 <div class="file-upload-icon">📷</div>
                 <div class="file-upload-text">Click to upload damage photos</div>
-                <div class="file-upload-hint">JPG, PNG, HEIC up to 10MB each · Or send via WhatsApp</div>
+                <div class="file-upload-hint">Please send photos via WhatsApp to +44 7539 425759 after submitting</div>
                 <input type="file" id="ffiles" name="photos" accept="image/*" multiple style="display:none" onchange="updateFileLabel(this)"/>
               </label>
               <div id="fileNames" style="margin-top:8px;font-size:12px;color:var(--muted)"></div>
@@ -1727,6 +1727,7 @@ async function handleSubmit(e) {
   btn.textContent = 'Sending…';
 
   const data = new FormData(form);
+  data.delete('photos'); // file uploads not supported on free plan — users send via WhatsApp
 
   try {
     const res = await fetch('https://formspree.io/f/mykblnlq', {
@@ -1741,6 +1742,8 @@ async function handleSubmit(e) {
       success.classList.add('show');
       window.scrollTo({top: document.getElementById('quote').offsetTop - 80, behavior: 'smooth'});
     } else {
+      const body = await res.json().catch(() => ({}));
+      console.error('Formspree error:', res.status, body);
       btn.disabled    = false;
       btn.textContent = 'Send My Free Quote Request';
       alert('Something went wrong. Please try again or contact us directly.');
