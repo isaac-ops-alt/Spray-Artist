@@ -1,0 +1,1785 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Spray Artists Leicester | Expert Car Body Repairs & Resprays</title>
+
+<link rel="icon" href="img/Spray artist logo.png">
+
+<meta name="description" content="Leicester's trusted bodyshop for car body repairs, resprays, dent removal, alloy refurbishment & more. Precision repairs. Flawless finish. Free quotes. Call +44 7539 425759."/>
+<meta name="keywords" content="car body repair Leicester, car respray Leicester, bumper repair Leicester, alloy refurbishment Leicester, dent repair Leicester, bodyshop Leicester, scratch repair Leicester"/>
+<link rel="canonical" href="https://sprayartistsleicester.co.uk/"/>
+<meta property="og:title" content="Spray Artists Leicester | Expert Car Body Repairs & Resprays"/>
+<meta property="og:description" content="Precision bodywork. Flawless finish. Fair pricing. Leicester's trusted bodyshop."/>
+<meta property="og:type" content="website"/>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+
+<!-- Local Business Schema -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"AutoRepair","name":"Spray Artists","telephone":"+447539425759","email":"sprayartists@hotmail.com","address":{"@type":"PostalAddress","streetAddress":"125 Humberstone Rd","addressLocality":"Leicester","postalCode":"LE5 3AP","addressCountry":"GB"},"geo":{"@type":"GeoCoordinates","latitude":52.6369,"longitude":-1.1085},"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.9","reviewCount":"87"},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Saturday"],"opens":"09:00","closes":"16:00"}],"priceRange":"££","description":"Leicester's trusted car body repair and respray specialist. Expert paint, dent, scratch and alloy repairs with OEM-quality finish.","areaServed":["Leicester","LE1","LE2","LE3","LE4","LE5","LE6","LE7","Hinckley","Loughborough","Wigston","Oadby","Birstall","Thurmaston"]}
+</script>
+
+<style>
+/*──────────────────────────────────────────────
+  RESET & TOKENS
+──────────────────────────────────────────────*/
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;font-size:16px}
+:root{
+  --ink:        #070709;
+  --ink2:       #0d0d10;
+  --ink3:       #131318;
+  --ink4:       #1a1a22;
+  --ink5:       #22222c;
+  --border:     rgba(255,255,255,0.07);
+  --border2:    rgba(255,255,255,0.12);
+  --blue:       #2563FF;
+  --blue-light: #4d84ff;
+  --blue-dim:   rgba(37,99,255,0.15);
+  --blue-glow:  rgba(37,99,255,0.4);
+  --silver:     #a8b0c0;
+  --white:      #ffffff;
+  --off:        #e8eaf0;
+  --muted:      #6b7280;
+  --muted2:     #3a3d48;
+  --head:       'Barlow Condensed', sans-serif;
+  --body:       'Barlow', sans-serif;
+  --r:          14px;
+  --r2:         20px;
+}
+body{background:var(--ink);color:var(--off);font-family:var(--body);font-weight:400;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit}
+img{display:block;max-width:100%}
+button{font-family:var(--body);cursor:pointer;border:none;background:none}
+input,select,textarea{font-family:var(--body);outline:none}
+ul{list-style:none}
+
+/*──────────────────────────────────────────────
+  SCROLLBAR
+──────────────────────────────────────────────*/
+::-webkit-scrollbar{width:4px;background:var(--ink)}
+::-webkit-scrollbar-thumb{background:var(--ink5);border-radius:2px}
+
+/*──────────────────────────────────────────────
+  KEYFRAMES
+──────────────────────────────────────────────*/
+@keyframes fadeUp    {from{opacity:0;transform:translateY(32px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn    {from{opacity:0}to{opacity:1}}
+@keyframes pulseWA   {0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,.5)}60%{box-shadow:0 0 0 14px rgba(37,211,102,0)}}
+@keyframes pulseBlue {0%,100%{box-shadow:0 0 0 0 rgba(37,99,255,.5)}60%{box-shadow:0 0 0 14px rgba(37,99,255,0)}}
+@keyframes blink     {0%,100%{opacity:1}50%{opacity:.25}}
+@keyframes marquee   {from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes slideIn   {from{opacity:0;transform:translateX(-20px)}to{opacity:1;transform:translateX(0)}}
+@keyframes spin      {to{transform:rotate(360deg)}}
+
+/*──────────────────────────────────────────────
+  UTILITIES
+──────────────────────────────────────────────*/
+.reveal{opacity:0;transform:translateY(36px);transition:opacity .75s ease,transform .75s ease}
+.reveal.in{opacity:1;transform:none}
+.reveal-d1{transition-delay:.1s}.reveal-d2{transition-delay:.18s}.reveal-d3{transition-delay:.26s}
+.reveal-d4{transition-delay:.34s}.reveal-d5{transition-delay:.42s}.reveal-d6{transition-delay:.5s}
+
+.tag{display:inline-flex;align-items:center;gap:7px;font-family:var(--head);font-size:12px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--blue-light);margin-bottom:16px}
+.tag::before{content:'';display:block;width:24px;height:2px;background:var(--blue)}
+
+h1,h2,h3,h4{font-family:var(--head);line-height:1.0;font-weight:800;letter-spacing:-0.5px}
+h1{font-size:clamp(48px,7vw,96px);font-weight:900;letter-spacing:-1px;line-height:.95}
+h2{font-size:clamp(34px,5vw,60px);font-weight:800}
+h3{font-size:clamp(20px,3vw,28px);font-weight:700}
+
+.lede{font-size:clamp(15px,1.8vw,18px);color:var(--silver);line-height:1.75;max-width:580px}
+
+.wrap{max-width:1280px;margin:0 auto;padding:0 5%}
+.section{padding:100px 0}
+.section-sm{padding:70px 0}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;gap:9px;font-family:var(--head);font-weight:700;font-size:14px;letter-spacing:1.5px;text-transform:uppercase;border-radius:var(--r);padding:14px 28px;transition:all .25s;cursor:pointer;border:none;white-space:nowrap}
+.btn-primary{background:var(--blue);color:#fff;box-shadow:0 4px 24px var(--blue-glow)}
+.btn-primary:hover{background:var(--blue-light);transform:translateY(-2px);box-shadow:0 8px 36px var(--blue-glow)}
+.btn-outline{background:transparent;color:var(--off);border:1.5px solid var(--border2)}
+.btn-outline:hover{border-color:var(--blue-light);color:var(--white);background:var(--blue-dim)}
+.btn-wa{background:#25D366;color:#fff}
+.btn-wa:hover{background:#20bf5a;transform:translateY(-2px)}
+.btn-ghost{background:var(--ink4);color:var(--off);border:1px solid var(--border)}
+.btn-ghost:hover{background:var(--ink5);border-color:var(--border2)}
+.btn-sm{padding:10px 20px;font-size:12px}
+.btn-lg{padding:17px 36px;font-size:15px}
+.btn svg{flex-shrink:0}
+
+/* Cards */
+.card{background:var(--ink3);border:1px solid var(--border);border-radius:var(--r2);overflow:hidden;transition:all .3s}
+.card:hover{border-color:rgba(37,99,255,.3);transform:translateY(-5px);box-shadow:0 20px 60px rgba(0,0,0,.5),0 0 40px rgba(37,99,255,.08)}
+.glass{background:rgba(255,255,255,.03);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid var(--border)}
+
+/* Divider */
+.divider{width:100%;height:1px;background:var(--border);margin:0}
+
+/* Stars */
+.stars{display:flex;gap:3px;color:var(--blue-light)}
+.stars svg{width:14px;height:14px;fill:currentColor}
+
+/*──────────────────────────────────────────────
+  NAVIGATION
+──────────────────────────────────────────────*/
+#nav{position:fixed;top:0;left:0;right:0;z-index:1000;transition:all .4s}
+#nav.solid{background:rgba(7,7,9,.92);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);border-bottom:1px solid var(--border)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:72px;max-width:1280px;margin:0 auto;padding:0 5%}
+.nav-logo{display:flex;flex-direction:column;gap:1px}
+.nav-logo-name{font-family:var(--head);font-size:22px;font-weight:900;letter-spacing:2px;color:var(--white);line-height:1}
+.nav-logo-sub{font-size:9px;letter-spacing:4px;color:var(--muted);text-transform:uppercase}
+.nav-links{display:flex;gap:32px;align-items:center}
+.nav-links a{font-size:13px;font-weight:500;color:var(--silver);letter-spacing:.5px;transition:color .2s}
+.nav-links a:hover{color:var(--white)}
+.nav-actions{display:flex;gap:10px;align-items:center}
+.nav-phone{font-family:var(--head);font-size:14px;font-weight:700;letter-spacing:1px;color:var(--white);display:flex;align-items:center;gap:6px}
+.nav-phone svg{color:var(--blue-light)}
+.hamburger{display:none;flex-direction:column;gap:5px;padding:4px;background:none;border:none;cursor:pointer}
+.hamburger span{display:block;width:24px;height:2px;background:var(--white);border-radius:1px;transition:all .3s}
+.mobile-nav{display:none;flex-direction:column;background:rgba(7,7,9,.97);border-bottom:1px solid var(--border);padding:10px 0 24px}
+.mobile-nav a{padding:13px 5%;font-size:16px;font-weight:500;color:var(--silver);border-bottom:1px solid var(--border)}
+.mobile-nav a:last-child{border-bottom:none}
+.mobile-nav.open{display:flex}
+
+/*──────────────────────────────────────────────
+  HERO
+──────────────────────────────────────────────*/
+#hero{min-height:100vh;position:relative;display:flex;align-items:center;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center;filter:brightness(.5) saturate(1.2)}
+.hero-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(105deg,rgba(7,7,9,.92) 35%,rgba(7,7,9,.4) 65%,rgba(7,7,9,.1) 100%)}
+.hero-bg::before{content:'';position:absolute;inset:0;background:linear-gradient(to top,var(--ink) 0%,transparent 35%);z-index:1}
+.hero-content{position:relative;z-index:2;padding:130px 5% 80px;max-width:1280px;margin:0 auto;width:100%}
+.hero-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(37,99,255,.12);border:1px solid rgba(37,99,255,.3);border-radius:100px;padding:7px 18px;margin-bottom:28px;animation:fadeUp .6s ease both}
+.hero-badge-dot{width:7px;height:7px;border-radius:50%;background:var(--blue-light);animation:blink 1.8s ease-in-out infinite}
+.hero-badge span{font-family:var(--head);font-size:11px;font-weight:700;letter-spacing:3px;color:var(--blue-light);text-transform:uppercase}
+.hero-h1{animation:fadeUp .7s .1s ease both;color:var(--white)}
+.hero-h1 .accent{color:var(--blue-light);display:block}
+.hero-sub{margin:22px 0 40px;animation:fadeUp .7s .2s ease both}
+.hero-ctas{display:flex;gap:14px;flex-wrap:wrap;animation:fadeUp .7s .3s ease both}
+.hero-stats{display:flex;gap:40px;margin-top:64px;padding-top:40px;border-top:1px solid var(--border);flex-wrap:wrap;animation:fadeUp .7s .4s ease both}
+.hero-stat-num{font-family:var(--head);font-size:32px;font-weight:900;color:var(--white);line-height:1}
+.hero-stat-num span{color:var(--blue-light)}
+.hero-stat-lab{font-size:11px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-top:4px}
+
+/* Scroll indicator */
+.scroll-ind{position:absolute;bottom:32px;left:50%;transform:translateX(-50%);z-index:2;display:flex;flex-direction:column;align-items:center;gap:8px;animation:fadeIn 1s 1s both}
+.scroll-ind span{font-size:9px;letter-spacing:3px;color:var(--muted);text-transform:uppercase}
+.scroll-ind-line{width:1px;height:40px;background:linear-gradient(to bottom,var(--blue-light),transparent)}
+
+/*──────────────────────────────────────────────
+  TRUST BAR
+──────────────────────────────────────────────*/
+#trust-bar{background:var(--ink2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:22px 0}
+.trust-bar-grid{display:flex;gap:0;overflow-x:auto;scrollbar-width:none}
+.trust-bar-grid::-webkit-scrollbar{display:none}
+.trust-item{display:flex;align-items:center;gap:10px;padding:6px 28px;flex-shrink:0;border-right:1px solid var(--border)}
+.trust-item:last-child{border-right:none}
+.trust-item-icon{font-size:20px;flex-shrink:0}
+.trust-item-text{font-family:var(--head);font-size:13px;font-weight:700;letter-spacing:.5px;color:var(--off)}
+.trust-item-sub{font-size:11px;color:var(--muted);margin-top:1px}
+
+/*──────────────────────────────────────────────
+  MARQUEE
+──────────────────────────────────────────────*/
+#marquee-bar{overflow:hidden;background:#050507;padding:14px 0;border-bottom:1px solid var(--border)}
+.marquee-track{display:flex;gap:56px;width:max-content;animation:marquee 32s linear infinite;white-space:nowrap}
+.marquee-track span{font-family:var(--head);font-size:11px;font-weight:700;letter-spacing:5px;color:var(--muted2);text-transform:uppercase}
+.marquee-track .sep{color:#1e1e28}
+
+/*──────────────────────────────────────────────
+  SERVICES
+──────────────────────────────────────────────*/
+#services{background:var(--ink)}
+.services-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:56px;flex-wrap:wrap;gap:24px}
+.services-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.svc-card{background:var(--ink3);border:1px solid var(--border);border-radius:var(--r2);padding:30px 26px;position:relative;overflow:hidden;transition:all .3s;cursor:default}
+.svc-card::before{content:'';position:absolute;top:-60px;right:-60px;width:140px;height:140px;border-radius:50%;background:radial-gradient(circle,rgba(37,99,255,.08),transparent 70%);opacity:0;transition:opacity .35s}
+.svc-card:hover{border-color:rgba(37,99,255,.3);transform:translateY(-5px);box-shadow:0 24px 56px rgba(0,0,0,.5),0 0 40px rgba(37,99,255,.07)}
+.svc-card:hover::before{opacity:1}
+.svc-icon{width:52px;height:52px;border-radius:12px;background:var(--blue-dim);border:1px solid rgba(37,99,255,.2);display:flex;align-items:center;justify-content:center;font-size:24px;margin-bottom:20px}
+.svc-name{font-family:var(--head);font-size:18px;font-weight:800;color:var(--white);margin-bottom:10px;line-height:1.15}
+.svc-desc{font-size:13px;color:var(--silver);line-height:1.65;margin-bottom:20px}
+.svc-link{font-family:var(--head);font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--blue-light);display:flex;align-items:center;gap:6px;transition:gap .2s}
+.svc-card:hover .svc-link{gap:10px}
+.svc-kw{margin-top:10px;font-size:10px;color:var(--muted2);letter-spacing:1px}
+
+/*──────────────────────────────────────────────
+  BEFORE / AFTER
+──────────────────────────────────────────────*/
+#gallery{background:var(--ink2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.ba-intro{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center;margin-bottom:64px}
+.ba-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+
+/* Slider */
+.ba-card{border-radius:var(--r2);overflow:hidden;border:1px solid var(--border);background:var(--ink3)}
+.ba-slider{position:relative;width:100%;height:260px;overflow:hidden;cursor:ew-resize;user-select:none;touch-action:none}
+.ba-before-panel,.ba-after-wrapper{position:absolute;inset:0}
+.ba-after-wrapper{width:50%;overflow:hidden}
+.ba-after-panel{position:absolute;inset:0;width:var(--panel-w,100%)}
+.ba-line{position:absolute;top:0;bottom:0;left:50%;width:2px;background:var(--blue);box-shadow:0 0 16px var(--blue-glow);transform:translateX(-50%);z-index:9;pointer-events:none}
+.ba-knob{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:44px;height:44px;border-radius:50%;background:var(--ink);border:2px solid var(--blue);box-shadow:0 0 20px var(--blue-glow),0 4px 20px rgba(0,0,0,.8);display:flex;align-items:center;justify-content:center;z-index:10;pointer-events:all;cursor:ew-resize}
+.ba-knob svg{display:block}
+.ba-tag{position:absolute;top:12px;z-index:8;font-family:var(--head);font-size:9px;font-weight:700;letter-spacing:3px;text-transform:uppercase;padding:4px 11px;border-radius:5px;pointer-events:none}
+.ba-tag-b{left:12px;background:rgba(0,0,0,.65);color:#666;border:1px solid #2a2a35}
+.ba-tag-a{right:12px;background:rgba(37,99,255,.12);color:var(--blue-light);border:1px solid rgba(37,99,255,.3)}
+.ba-hint{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);font-family:var(--head);font-size:9px;letter-spacing:2px;color:rgba(255,255,255,.2);pointer-events:none;z-index:8;white-space:nowrap}
+.ba-meta{padding:18px 20px}
+.ba-meta-title{font-family:var(--head);font-size:15px;font-weight:800;color:var(--white)}
+.ba-meta-sub{font-size:12px;color:var(--muted);margin-top:3px}
+
+/* Simulated panel visuals */
+.panel-damage-1{background:linear-gradient(135deg,#1a0e00,#2a1500,#0d0900)}
+.panel-clean-1 {background:linear-gradient(135deg,#001228,#001c38,#000a18)}
+.panel-damage-2{background:linear-gradient(135deg,#1c1400,#2c2000,#0e0b00)}
+.panel-clean-2 {background:linear-gradient(135deg,#001422,#001e30,#000c16)}
+.panel-damage-3{background:linear-gradient(135deg,#1e0800,#2e1000,#100500)}
+.panel-clean-3 {background:linear-gradient(135deg,#001028,#00183c,#000820)}
+.panel-damage-4{background:linear-gradient(135deg,#181400,#242000,#0c0a00)}
+.panel-clean-4 {background:linear-gradient(135deg,#001624,#001e30,#000e18)}
+.panel-damage-5{background:linear-gradient(135deg,#200a00,#301200,#140600)}
+.panel-clean-5 {background:linear-gradient(135deg,#001220,#001a2e,#000a14)}
+.panel-damage-6{background:linear-gradient(135deg,#160c00,#221400,#0a0800)}
+.panel-clean-6 {background:linear-gradient(135deg,#001520,#001c2a,#000c12)}
+
+.panel-inner{width:100%;height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px}
+.panel-emoji{font-size:52px;filter:drop-shadow(0 4px 16px rgba(0,0,0,.7))}
+.panel-label-inner{font-family:var(--head);font-size:10px;letter-spacing:3px;font-weight:700;text-transform:uppercase}
+.panel-damage-1 .panel-label-inner,.panel-damage-2 .panel-label-inner,.panel-damage-3 .panel-label-inner,
+.panel-damage-4 .panel-label-inner,.panel-damage-5 .panel-label-inner,.panel-damage-6 .panel-label-inner{color:#5a3510}
+.panel-clean-1 .panel-label-inner,.panel-clean-2 .panel-label-inner,.panel-clean-3 .panel-label-inner,
+.panel-clean-4 .panel-label-inner,.panel-clean-5 .panel-label-inner,.panel-clean-6 .panel-label-inner{color:var(--blue-light)}
+
+/*──────────────────────────────────────────────
+  WHY CHOOSE
+──────────────────────────────────────────────*/
+#why{background:var(--ink)}
+.why-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
+.why-features{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:40px}
+.why-feat{background:var(--ink3);border:1px solid var(--border);border-radius:var(--r);padding:24px;transition:all .25s}
+.why-feat:hover{border-color:rgba(37,99,255,.25);box-shadow:0 8px 32px rgba(0,0,0,.4)}
+.why-feat-icon{font-size:26px;margin-bottom:12px}
+.why-feat-title{font-family:var(--head);font-size:15px;font-weight:800;color:var(--white);margin-bottom:6px}
+.why-feat-desc{font-size:13px;color:var(--silver);line-height:1.65}
+.why-right{position:relative}
+.why-big-stat{background:var(--ink3);border:1px solid var(--border);border-radius:var(--r2);padding:40px;text-align:center;margin-bottom:20px}
+.why-big-num{font-family:var(--head);font-size:72px;font-weight:900;color:var(--white);line-height:1}
+.why-big-num span{color:var(--blue-light)}
+.why-big-lab{font-size:14px;color:var(--silver);margin-top:8px;letter-spacing:1px}
+.why-cta-strip{background:linear-gradient(135deg,var(--blue-dim),rgba(37,99,255,.05));border:1px solid rgba(37,99,255,.2);border-radius:var(--r2);padding:32px;text-align:center}
+.why-cta-text{font-family:var(--head);font-size:22px;font-weight:800;color:var(--white);margin-bottom:18px;line-height:1.2}
+
+/*──────────────────────────────────────────────
+  REVIEWS
+──────────────────────────────────────────────*/
+#reviews{background:var(--ink2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.reviews-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:52px;flex-wrap:wrap;gap:20px}
+.rating-hero{display:flex;align-items:center;gap:20px;background:var(--ink3);border:1px solid var(--border);border-radius:var(--r2);padding:24px 32px}
+.rating-score{font-family:var(--head);font-size:56px;font-weight:900;color:var(--white);line-height:1}
+.rating-score span{color:var(--blue-light)}
+.rating-meta{display:flex;flex-direction:column;gap:5px}
+.rating-stars-row{display:flex;gap:4px}
+.rating-stars-row svg{width:18px;height:18px;fill:var(--blue-light)}
+.rating-source{font-size:11px;letter-spacing:2px;color:var(--muted);text-transform:uppercase}
+.rating-count{font-size:13px;color:var(--silver)}
+.reviews-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.review-card{background:var(--ink3);border:1px solid var(--border);border-left:3px solid var(--blue);border-radius:var(--r2);padding:26px;transition:all .25s}
+.review-card:hover{transform:translateX(4px);border-color:rgba(37,99,255,.35)}
+.review-card:hover{border-left-color:var(--blue-light)}
+.review-stars{display:flex;gap:3px;margin-bottom:14px}
+.review-stars svg{width:14px;height:14px;fill:var(--blue-light)}
+.review-text{font-size:14px;color:#c0c5d0;line-height:1.75;font-style:italic;margin-bottom:14px}
+.review-author{font-family:var(--head);font-weight:700;font-size:14px;color:var(--white)}
+.review-car{font-size:12px;color:var(--muted)}
+.review-cta{margin-top:40px;text-align:center;padding:36px;background:var(--ink3);border:1px solid var(--border);border-radius:var(--r2)}
+.review-cta p{color:var(--silver);margin-bottom:20px;font-size:15px}
+
+/*──────────────────────────────────────────────
+  PROCESS
+──────────────────────────────────────────────*/
+#process{background:var(--ink)}
+.process-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:56px;position:relative}
+.process-grid::before{content:'';position:absolute;top:36px;left:12.5%;right:12.5%;height:1px;background:linear-gradient(to right,transparent,var(--border),var(--border),var(--border),transparent)}
+.process-step{text-align:center;padding:30px 20px;background:var(--ink3);border:1px solid var(--border);border-radius:var(--r2);position:relative;transition:all .3s}
+.process-step:hover{border-color:rgba(37,99,255,.3);box-shadow:0 16px 48px rgba(0,0,0,.5)}
+.process-num{width:56px;height:56px;border-radius:50%;background:var(--ink4);border:2px solid rgba(37,99,255,.3);display:flex;align-items:center;justify-content:center;font-family:var(--head);font-size:20px;font-weight:900;color:var(--blue-light);margin:0 auto 20px;position:relative;z-index:1}
+.process-title{font-family:var(--head);font-size:18px;font-weight:800;color:var(--white);margin-bottom:10px}
+.process-desc{font-size:13px;color:var(--silver);line-height:1.65}
+
+/*──────────────────────────────────────────────
+  AREAS
+──────────────────────────────────────────────*/
+#areas{background:var(--ink2);border-top:1px solid var(--border)}
+.areas-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;margin-top:56px}
+.areas-list{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.area-chip{background:var(--ink4);border:1px solid var(--border);border-radius:8px;padding:8px 18px;font-size:13px;font-weight:500;color:var(--silver);transition:all .2s}
+.area-chip:hover{border-color:rgba(37,99,255,.3);color:var(--blue-light);background:var(--blue-dim)}
+.area-chip.primary{border-color:rgba(37,99,255,.35);color:var(--blue-light);background:var(--blue-dim)}
+.map-embed{border-radius:var(--r2);overflow:hidden;border:1px solid var(--border);height:380px;background:var(--ink3);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px}
+.map-placeholder-icon{font-size:48px}
+.map-placeholder-text{font-family:var(--head);font-size:15px;font-weight:700;color:var(--white)}
+.map-placeholder-sub{font-size:13px;color:var(--muted);text-align:center;max-width:260px;line-height:1.6}
+.seo-tiles{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:30px}
+.seo-tile{background:var(--ink3);border:1px solid var(--border);border-radius:var(--r);padding:16px 18px;transition:all .25s}
+.seo-tile:hover{border-color:rgba(37,99,255,.25);background:var(--ink4)}
+.seo-tile-title{font-family:var(--head);font-size:13px;font-weight:800;color:var(--white);margin-bottom:4px}
+.seo-tile-text{font-size:11px;color:var(--muted);line-height:1.5}
+
+/*──────────────────────────────────────────────
+  FAQ
+──────────────────────────────────────────────*/
+#faq{background:var(--ink)}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:52px}
+.faq-item{background:var(--ink3);border:1px solid var(--border);border-radius:var(--r2);overflow:hidden}
+.faq-q{width:100%;display:flex;justify-content:space-between;align-items:center;padding:22px 26px;text-align:left;background:none;color:var(--white);font-family:var(--head);font-size:16px;font-weight:700;cursor:pointer;transition:background .2s;gap:16px}
+.faq-q:hover{background:var(--ink4)}
+.faq-q.open{color:var(--blue-light)}
+.faq-icon{flex-shrink:0;width:24px;height:24px;border-radius:50%;background:var(--ink4);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;transition:all .3s;font-size:14px;color:var(--silver)}
+.faq-q.open .faq-icon{background:var(--blue-dim);border-color:rgba(37,99,255,.3);color:var(--blue-light);transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .4s ease,padding .3s}
+.faq-a.open{max-height:300px;padding-bottom:22px}
+.faq-a p{padding:0 26px;font-size:14px;color:var(--silver);line-height:1.75}
+
+/*──────────────────────────────────────────────
+  QUOTE SECTION
+──────────────────────────────────────────────*/
+#quote{background:var(--ink2);border-top:1px solid var(--border)}
+.quote-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
+.quote-form{background:var(--ink3);border:1px solid var(--border);border-radius:var(--r2);padding:44px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-group{margin-bottom:18px}
+.form-group.full{grid-column:1/-1}
+.form-label{display:block;font-family:var(--head);font-size:11px;font-weight:700;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:8px}
+.form-input,.form-select,.form-textarea{width:100%;background:var(--ink4);border:1px solid var(--border);border-radius:var(--r);padding:13px 16px;font-size:14px;color:var(--white);transition:border-color .2s}
+.form-input:focus,.form-select:focus,.form-textarea:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(37,99,255,.1)}
+.form-input::placeholder,.form-textarea::placeholder{color:var(--muted2)}
+.form-select{cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b7280' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:36px}
+.form-select option{background:var(--ink3);color:var(--white)}
+.form-textarea{resize:vertical;min-height:110px}
+.file-upload{width:100%;background:var(--ink4);border:2px dashed var(--border);border-radius:var(--r);padding:24px;text-align:center;cursor:pointer;transition:all .25s;display:flex;flex-direction:column;align-items:center;gap:10px}
+.file-upload:hover{border-color:rgba(37,99,255,.4);background:var(--blue-dim)}
+.file-upload-icon{font-size:28px}
+.file-upload-text{font-family:var(--head);font-size:13px;font-weight:700;color:var(--silver)}
+.file-upload-hint{font-size:11px;color:var(--muted)}
+.form-submit{width:100%;margin-top:6px}
+.form-trust{display:flex;align-items:center;gap:8px;margin-top:14px;font-size:12px;color:var(--muted)}
+.form-trust svg{color:var(--blue-light);flex-shrink:0}
+
+.quote-aside{display:flex;flex-direction:column;gap:20px}
+.quote-aside-heading{font-family:var(--head);font-size:14px;font-weight:700;letter-spacing:1px;color:var(--white);text-transform:uppercase;margin-bottom:4px}
+.contact-card{background:var(--ink3);border:1px solid var(--border);border-radius:var(--r2);padding:28px}
+.contact-row{display:flex;align-items:flex-start;gap:14px;padding:14px 0;border-bottom:1px solid var(--border)}
+.contact-row:last-child{border-bottom:none}
+.contact-icon{width:40px;height:40px;border-radius:10px;background:var(--blue-dim);border:1px solid rgba(37,99,255,.2);display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.contact-label{font-family:var(--head);font-size:11px;font-weight:700;letter-spacing:1.5px;color:var(--muted);text-transform:uppercase;margin-bottom:3px}
+.contact-val{font-size:14px;color:var(--white);font-weight:500}
+.contact-val a{color:var(--white);transition:color .2s}
+.contact-val a:hover{color:var(--blue-light)}
+.hours-card{background:var(--ink3);border:1px solid var(--border);border-radius:var(--r2);padding:28px}
+.hours-row{display:flex;justify-content:space-between;padding:9px 0;border-bottom:1px solid var(--border);font-size:13px}
+.hours-row:last-child{border-bottom:none}
+.hours-day{color:var(--silver)}
+.hours-time{color:var(--white);font-weight:500}
+.hours-time.closed{color:var(--muted)}
+
+/*──────────────────────────────────────────────
+  FINAL CTA STRIP
+──────────────────────────────────────────────*/
+#cta-strip{background:linear-gradient(135deg,#020a1a,#030d22,#020810);border-top:1px solid rgba(37,99,255,.2);border-bottom:1px solid rgba(37,99,255,.15);padding:90px 0;position:relative;overflow:hidden}
+#cta-strip::before{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(37,99,255,.07),transparent 70%);pointer-events:none}
+.cta-strip-inner{text-align:center;position:relative;z-index:1}
+.cta-strip-h2{font-family:var(--head);font-size:clamp(36px,5vw,68px);font-weight:900;color:var(--white);margin-bottom:16px;line-height:1}
+.cta-strip-h2 span{color:var(--blue-light)}
+.cta-strip-sub{font-size:16px;color:var(--silver);margin-bottom:40px;max-width:520px;margin-left:auto;margin-right:auto}
+.cta-strip-btns{display:flex;justify-content:center;gap:14px;flex-wrap:wrap}
+.cta-strip-contact{display:flex;justify-content:center;gap:36px;margin-top:40px;flex-wrap:wrap}
+.cta-contact-item{display:flex;align-items:center;gap:8px;font-size:14px;color:var(--silver)}
+.cta-contact-item a{color:var(--white);font-weight:500;transition:color .2s}
+.cta-contact-item a:hover{color:var(--blue-light)}
+.cta-contact-item svg{color:var(--blue-light)}
+
+/*──────────────────────────────────────────────
+  FOOTER
+──────────────────────────────────────────────*/
+footer{background:var(--ink);border-top:1px solid var(--border);padding:72px 0 32px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:56px;margin-bottom:56px}
+.footer-brand-name{font-family:var(--head);font-size:24px;font-weight:900;letter-spacing:2px;color:var(--white);margin-bottom:4px}
+.footer-brand-tag{font-size:11px;letter-spacing:3px;color:var(--muted);text-transform:uppercase;margin-bottom:18px}
+.footer-brand-desc{font-size:13px;color:var(--silver);line-height:1.7;max-width:280px;margin-bottom:22px}
+.footer-socials{display:flex;gap:10px}
+.footer-social{width:36px;height:36px;border-radius:8px;background:var(--ink3);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:15px;transition:all .2s;color:var(--silver)}
+.footer-social:hover{border-color:rgba(37,99,255,.35);color:var(--blue-light);background:var(--blue-dim)}
+.footer-col-title{font-family:var(--head);font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--white);margin-bottom:18px}
+.footer-links{display:flex;flex-direction:column;gap:10px}
+.footer-links a{font-size:13px;color:var(--silver);transition:color .2s;display:flex;align-items:center;gap:6px}
+.footer-links a:hover{color:var(--blue-light)}
+.footer-contact-row{display:flex;align-items:flex-start;gap:10px;margin-bottom:12px;font-size:13px;color:var(--silver)}
+.footer-contact-row svg{color:var(--blue-light);flex-shrink:0;margin-top:2px}
+.footer-contact-row a{color:var(--silver);transition:color .2s}
+.footer-contact-row a:hover{color:var(--blue-light)}
+.footer-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:28px;border-top:1px solid var(--border);flex-wrap:wrap;gap:12px;font-size:12px;color:var(--muted)}
+.footer-bottom-kw{font-size:11px;color:var(--muted2);letter-spacing:.5px}
+
+/*──────────────────────────────────────────────
+  FLOATING BUTTONS
+──────────────────────────────────────────────*/
+.float-cluster{position:fixed;bottom:24px;right:24px;z-index:900;display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.float-label{background:var(--ink);border:1px solid var(--border);border-radius:8px;padding:6px 14px;font-family:var(--head);font-size:11px;font-weight:700;letter-spacing:.5px;color:var(--white);white-space:nowrap;opacity:0;transform:translateX(8px);transition:all .25s;pointer-events:none}
+.float-btn{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 24px rgba(0,0,0,.5);transition:transform .2s;cursor:pointer;border:none}
+.float-btn:hover{transform:scale(1.1)}
+.float-wa{background:#25D366;animation:pulseWA 2.8s ease-in-out infinite}
+.float-call{background:var(--blue);animation:pulseBlue 3s 1s ease-in-out infinite}
+.float-item:hover .float-label{opacity:1;transform:translateX(0)}
+.float-item{display:flex;align-items:center;gap:10px}
+
+/* Sticky mobile bar */
+.sticky-mobile{display:none;position:fixed;bottom:0;left:0;right:0;z-index:950;background:rgba(7,7,9,.97);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-top:1px solid var(--border);padding:12px 16px;gap:10px}
+.sticky-mobile a{flex:1;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:10px;padding:13px;font-family:var(--head);font-size:13px;font-weight:700;letter-spacing:.5px;transition:all .2s}
+.sticky-mobile-call{background:var(--blue);color:#fff}
+.sticky-mobile-wa  {background:#25D366;color:#fff}
+.sticky-mobile-call:hover{background:var(--blue-light)}
+.sticky-mobile-wa:hover{background:#20bf5a}
+
+/*──────────────────────────────────────────────
+  FORM SUCCESS
+──────────────────────────────────────────────*/
+.form-success{display:none;text-align:center;padding:32px 0}
+.form-success.show{display:block}
+.form-success-icon{font-size:52px;margin-bottom:16px}
+.form-success-title{font-family:var(--head);font-size:24px;font-weight:800;color:var(--white);margin-bottom:10px}
+.form-success-text{font-size:14px;color:var(--silver);line-height:1.7}
+
+/*──────────────────────────────────────────────
+  RESPONSIVE
+──────────────────────────────────────────────*/
+@media(max-width:1100px){
+  .services-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:36px}
+}
+@media(max-width:900px){
+  .ba-intro{grid-template-columns:1fr;gap:36px}
+  .ba-grid{grid-template-columns:repeat(2,1fr)}
+  .why-grid{grid-template-columns:1fr;gap:48px}
+  .reviews-grid{grid-template-columns:1fr 1fr}
+  .process-grid{grid-template-columns:1fr 1fr}
+  .process-grid::before{display:none}
+  .areas-grid{grid-template-columns:1fr;gap:36px}
+  .quote-grid{grid-template-columns:1fr;gap:36px}
+  .faq-grid{grid-template-columns:1fr}
+}
+@media(max-width:768px){
+  .hero-bg img{filter:brightness(.55) saturate(1.2);object-position:60% center}
+  .hero-bg::after{background:linear-gradient(to bottom,rgba(7,7,9,.7) 0%,rgba(7,7,9,.4) 50%,rgba(7,7,9,.75) 100%)}
+  .nav-links{display:none}
+  .nav-actions .btn{display:none}
+  .nav-phone{display:none}
+  .hamburger{display:flex}
+  .services-grid{grid-template-columns:1fr}
+  .ba-grid{grid-template-columns:1fr}
+  .reviews-grid{grid-template-columns:1fr}
+  .process-grid{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .footer-grid>div:not(:first-child){display:none}
+  .hero-stats{gap:24px}
+  .why-features{grid-template-columns:1fr}
+  .form-row{grid-template-columns:1fr}
+  .seo-tiles{grid-template-columns:1fr}
+  .float-cluster{display:none}
+  .sticky-mobile{display:flex}
+  body{padding-bottom:76px}
+  .rating-hero{flex-direction:column;text-align:center;gap:12px}
+  .reviews-header{flex-direction:column;align-items:flex-start;gap:16px}
+  .cta-strip-contact{flex-direction:column;gap:16px;align-items:center}
+}
+@media(max-width:480px){
+  .hero-ctas{flex-direction:column}
+  .hero-ctas .btn{width:100%;justify-content:center}
+  .cta-strip-btns{flex-direction:column;align-items:center}
+  .cta-strip-btns .btn{width:100%;max-width:300px;justify-content:center}
+}
+</style>
+</head>
+<body>
+
+<!--═══════════════════════════════════════════
+    NAVIGATION
+═══════════════════════════════════════════-->
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo" aria-label="Spray Artists Home">
+      <div class="nav-logo-name">SPRAY ARTISTS</div>
+      <div class="nav-logo-sub">Leicester Bodyshop</div>
+    </a>
+
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#gallery">Our Work</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#areas">Areas</a>
+      <a href="#faq">FAQ</a>
+      <a href="#quote">Contact</a>
+    </div>
+
+    <div class="nav-actions">
+      <a href="tel:+447539425759" class="nav-phone">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.91 2.18 2 2 0 012.91 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+        +44 7539 425759
+      </a>
+      <a href="#quote" class="btn btn-primary btn-sm">Get a Free Quote</a>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <div class="mobile-nav" id="mobileNav">
+    <a href="#services"  onclick="closeMobileNav()">Services</a>
+    <a href="#gallery"   onclick="closeMobileNav()">Our Work</a>
+    <a href="#reviews"   onclick="closeMobileNav()">Reviews</a>
+    <a href="#areas"     onclick="closeMobileNav()">Areas Covered</a>
+    <a href="#faq"       onclick="closeMobileNav()">FAQ</a>
+    <a href="#quote"     onclick="closeMobileNav()">Get a Quote</a>
+    <a href="tel:+447539425759">📞 Call +44 7539 425759</a>
+    <a href="https://wa.me/447539425759" target="_blank">💬 WhatsApp Us</a>
+  </div>
+</nav>
+
+<!--═══════════════════════════════════════════
+    HERO
+═══════════════════════════════════════════-->
+<section id="hero">
+  <div class="hero-bg">
+    <img
+      src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=1600&q=85&auto=format&fit=crop"
+      alt="Premium car respray — Spray Artists Leicester"
+      loading="eager"
+    />
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="hero-badge-dot"></span>
+      <span>Leicester's Trusted Bodyshop — Est. 2014</span>
+    </div>
+
+    <h1 class="hero-h1">
+      Expert Car Body <br>Repairs<br>
+      <span class="accent"> & Resprays <br>in Leicester</span>
+    </h1>
+
+    <p class="hero-sub lede">
+       Precision repairs. Flawless finish. From bumper scuffs to full OEM resprays — we restore your vehicle <strong style="color:#fff">properly</strong>. Fair pricing. No shortcuts.
+    </p>
+
+    <div class="hero-ctas">
+      <a href="#quote" class="btn btn-primary btn-lg">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+        Get a Free Quote
+      </a>
+      <a href="tel:+447539425759" class="btn btn-outline btn-lg">
+        <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.91 2.18 2 2 0 012.91 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+        Call Now
+      </a>
+      <a href="https://wa.me/447539425759?text=Hi%2C%20I'd%20like%20a%20quote%20for%20car%20bodywork." target="_blank" class="btn btn-wa btn-lg">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.107.549 4.09 1.512 5.813L.057 23.077a1 1 0 001.194 1.317l5.357-1.397C8.163 23.621 10.043 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.868 0-3.647-.483-5.194-1.334l-.364-.207-3.782.987.992-3.694-.228-.375A9.964 9.964 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+        Send Photos for a Quote
+      </a>
+    </div>
+
+    <div class="hero-stats">
+      <div>
+        <div class="hero-stat-num">4.9<span>★</span></div>
+        <div class="hero-stat-lab">Google Rating</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">67<span>+</span></div>
+        <div class="hero-stat-lab">5-Star Reviews</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">10<span>+</span></div>
+        <div class="hero-stat-lab">Years Experience</div>
+      </div>
+      <div>
+        <div class="hero-stat-num"><span>~</span>24h</div>
+        <div class="hero-stat-lab">Avg. Turnaround</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-ind" aria-hidden="true">
+    <span>Scroll</span>
+    <div class="scroll-ind-line"></div>
+  </div>
+</section>
+
+<!--═══════════════════════════════════════════
+    TRUST BAR
+═══════════════════════════════════════════-->
+<div id="trust-bar">
+  <div class="wrap">
+    <div class="trust-bar-grid">
+      <div class="trust-item">
+        <div class="trust-item-icon">⭐</div>
+        <div>
+          <div class="trust-item-text">4.9/5 Google Rating</div>
+          <div class="trust-item-sub">87+ verified reviews</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item-icon">📍</div>
+        <div>
+          <div class="trust-item-text">Leicester Based</div>
+          <div class="trust-item-sub">125 Humberstone Rd, LE5</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item-icon">⚡</div>
+        <div>
+          <div class="trust-item-text">Fast Turnaround</div>
+          <div class="trust-item-sub">24–48hrs on most repairs</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item-icon">💷</div>
+        <div>
+          <div class="trust-item-text">Fair Pricing</div>
+          <div class="trust-item-sub">Honest quotes, no hidden costs</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item-icon">🔍</div>
+        <div>
+          <div class="trust-item-text">Free Quotes</div>
+          <div class="trust-item-sub">Send photos, get a price fast</div>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-item-icon">🏆</div>
+        <div>
+          <div class="trust-item-text">OEM Finish Quality</div>
+          <div class="trust-item-sub">Matches factory standard</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--═══════════════════════════════════════════
+    MARQUEE
+═══════════════════════════════════════════-->
+<div id="marquee-bar" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Bumper Repair</span><span class="sep">◆</span>
+    <span>Dent Removal</span><span class="sep">◆</span>
+    <span>Car Resprays</span><span class="sep">◆</span>
+    <span>Alloy Refurb</span><span class="sep">◆</span>
+    <span>Scratch Repair</span><span class="sep">◆</span>
+    <span>Caliper Painting</span><span class="sep">◆</span>
+    <span>SMART Repairs</span><span class="sep">◆</span>
+    <span>Accident Damage</span><span class="sep">◆</span>
+    <span>Paint Correction</span><span class="sep">◆</span>
+    <span>Panel Resprays</span><span class="sep">◆</span>
+    <span>Bumper Repair</span><span class="sep">◆</span>
+    <span>Dent Removal</span><span class="sep">◆</span>
+    <span>Car Resprays</span><span class="sep">◆</span>
+    <span>Alloy Refurb</span><span class="sep">◆</span>
+    <span>Scratch Repair</span><span class="sep">◆</span>
+    <span>Caliper Painting</span><span class="sep">◆</span>
+    <span>SMART Repairs</span><span class="sep">◆</span>
+    <span>Accident Damage</span><span class="sep">◆</span>
+    <span>Paint Correction</span><span class="sep">◆</span>
+    <span>Panel Resprays</span><span class="sep">◆</span>
+  </div>
+</div>
+
+<!--═══════════════════════════════════════════
+    SERVICES
+═══════════════════════════════════════════-->
+<section id="services" class="section">
+  <div class="wrap">
+    <div class="services-header reveal">
+      <div>
+        <div class="tag">What We Do</div>
+        <h2>Every Repair. Done Properly.</h2>
+        <p class="lede" style="margin-top:12px">From a single stone chip to a full vehicle respray — we handle all types of car body and paint work in Leicester.</p>
+      </div>
+      <a href="#quote" class="btn btn-outline">View All Services →</a>
+    </div>
+
+    <div class="services-grid">
+      <div class="svc-card reveal reveal-d1">
+        <div class="svc-icon">💥</div>
+        <div class="svc-name">Bumper Repair</div>
+        <div class="svc-desc">Scuffs, cracks, splits and paint transfer on plastic or painted bumpers — repaired and refinished to match your car's original colour perfectly.</div>
+        <div class="svc-link">Get a Quote <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        <div class="svc-kw">Bumper repair Leicester · LE5</div>
+      </div>
+      <div class="svc-card reveal reveal-d2">
+        <div class="svc-icon">🔨</div>
+        <div class="svc-name">Dent Removal</div>
+        <div class="svc-desc">Paintless dent repair (PDR) and traditional filler-blend techniques for door dings, parking dents and body panel damage — invisible results.</div>
+        <div class="svc-link">Get a Quote <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        <div class="svc-kw">Dent repair Leicester · PDR Leicester</div>
+      </div>
+      <div class="svc-card reveal reveal-d3">
+        <div class="svc-icon">🔑</div>
+        <div class="svc-name">Scratch & Scuff Repair</div>
+        <div class="svc-desc">Stone chips, key scratches, road rash and scuffs repaired using colour-matched paint blending. No visible repair lines. Fraction of dealer cost.</div>
+        <div class="svc-link">Get a Quote <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        <div class="svc-kw">Scratch repair Leicester · Paint repair LE5</div>
+      </div>
+      <div class="svc-card reveal reveal-d4">
+        <div class="svc-icon">🎨</div>
+        <div class="svc-name">Car Resprays</div>
+        <div class="svc-desc">Full vehicle resprays and individual panel resprays. OEM colour-matched finishes. Whether restoring a classic or refreshing a daily driver — done right.</div>
+        <div class="svc-link">Get a Quote <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        <div class="svc-kw">Car respray Leicester · Full respray LE5</div>
+      </div>
+      <div class="svc-card reveal reveal-d1">
+        <div class="svc-icon">⚙️</div>
+        <div class="svc-name">Alloy Refurbishment</div>
+        <div class="svc-desc">Kerb rash, corrosion, peeling lacquer and oxidation — your alloys cleaned, repaired and refinished. Diamond-cut, painted or powder-coated options available.</div>
+        <div class="svc-link">Get a Quote <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        <div class="svc-kw">Alloy refurbishment Leicester · Alloy repair</div>
+      </div>
+      <div class="svc-card reveal reveal-d2">
+        <div class="svc-icon">🔴</div>
+        <div class="svc-name">Caliper Painting</div>
+        <div class="svc-desc">High-temperature caliper paint in any colour. Brand-standard red, yellow, or a custom colour — transforms the look of your wheels and adds a premium touch.</div>
+        <div class="svc-link">Get a Quote <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        <div class="svc-kw">Caliper painting Leicester</div>
+      </div>
+      <div class="svc-card reveal reveal-d3">
+        <div class="svc-icon">🚗</div>
+        <div class="svc-name">Accident Damage Repair</div>
+        <div class="svc-desc">Post-accident bodywork restored to pre-accident condition. We can liaise with your insurer and handle the repair to a high, consistent standard throughout.</div>
+        <div class="svc-link">Get a Quote <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        <div class="svc-kw">Accident damage repair Leicester</div>
+      </div>
+      <div class="svc-card reveal reveal-d4">
+        <div class="svc-icon">🔬</div>
+        <div class="svc-name">SMART Repairs</div>
+        <div class="svc-desc">Small to Medium Area Repair Technology. Targeted, cost-effective fixes for localised damage — quicker than a full panel respray and at a lower price point.</div>
+        <div class="svc-link">Get a Quote <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></div>
+        <div class="svc-kw">SMART repairs Leicester</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--═══════════════════════════════════════════
+    BEFORE / AFTER GALLERY
+═══════════════════════════════════════════-->
+<section id="gallery" class="section">
+  <div class="wrap">
+    <div class="ba-intro">
+      <div class="reveal">
+        <div class="tag">The Results</div>
+        <h2>See the Difference We Make</h2>
+        <p class="lede" style="margin-top:14px">Drag each slider to compare the damage against our finished repair. This is the standard we work to on every job.</p>
+        <a href="#quote" class="btn btn-primary" style="margin-top:28px">
+          Get Your Free Quote
+          <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+      <div class="reveal reveal-d2" style="background:var(--ink3);border:1px solid var(--border);border-radius:20px;padding:32px">
+        <div class="tag" style="margin-bottom:10px">Why customers choose us</div>
+        <div style="display:flex;flex-direction:column;gap:14px;margin-top:8px">
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--silver)"><span style="color:var(--blue-light);font-size:18px">✓</span> Colour-matched to OEM factory codes</div>
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--silver)"><span style="color:var(--blue-light);font-size:18px">✓</span> No visible repair lines or blending marks</div>
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--silver)"><span style="color:var(--blue-light);font-size:18px">✓</span> Competitive pricing — not dealer rates</div>
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--silver)"><span style="color:var(--blue-light);font-size:18px">✓</span> 24–48hr turnaround on most repairs</div>
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--silver)"><span style="color:var(--blue-light);font-size:18px">✓</span> Honest advice — we tell you what you need</div>
+          <div style="display:flex;align-items:center;gap:12px;font-size:14px;color:var(--silver)"><span style="color:var(--blue-light);font-size:18px">✓</span> Free no-obligation quotes via WhatsApp</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ba-grid">
+
+      <!-- Slider 1 -->
+      <div class="ba-card reveal reveal-d1">
+        <div class="ba-slider" data-slider>
+          <div class="ba-before-panel">
+            <img src="img/toyota rav4.jpg" alt="Before repair" 
+            style="width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none;">
+          </div>
+          <div class="ba-after-wrapper">
+            <div class="ba-after-panel" style="--panel-w:100%;width:100%">
+              <img src="img/toyota rav4 bad bumper.png" alt="After repair" 
+              style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none;">
+            </div>
+          </div>
+          <div class="ba-line"></div>
+          <div class="ba-knob">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+              <path d="M6 10L2 7v6l4-3zm8 0l4 3V7l-4 3z" fill="#2563FF"/>
+              <line x1="10" y1="2" x2="10" y2="18" stroke="#2563FF" stroke-width="1.5"/>
+            </svg>
+          </div>
+          <div class="ba-tag ba-tag-b">BEFORE</div>
+          <div class="ba-tag ba-tag-a">AFTER</div>
+          <div class="ba-hint">← drag to compare →</div>
+        </div>
+        <div class="ba-meta">
+          <div class="ba-meta-title">Bumper Repair</div>
+          <div class="ba-meta-sub">Deep scuff &amp; paint transfer — fully refinished</div>
+        </div>
+      </div>
+
+      <!-- Slider 2 -->
+      <div class="ba-card reveal reveal-d2">
+        <div class="ba-slider" data-slider>
+          <div class="ba-before-panel">
+            <img src="img/after alloy.png" alt="Before repair" 
+            style="width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none;">
+          </div>
+          <div class="ba-after-wrapper">
+            <div class="ba-after-panel" style="--panel-w:100%;width:100%">
+              <img src="img/before alloy.png" alt="After repair" 
+              style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none;">
+            </div>
+          </div>
+          <div class="ba-line"></div>
+          <div class="ba-knob">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M6 10L2 7v6l4-3zm8 0l4 3V7l-4 3z" fill="#2563FF"/><line x1="10" y1="2" x2="10" y2="18" stroke="#2563FF" stroke-width="1.5"/></svg>
+          </div>
+          <div class="ba-tag ba-tag-b">BEFORE</div>
+          <div class="ba-tag ba-tag-a">AFTER</div>
+          <div class="ba-hint">← drag to compare →</div>
+        </div>
+        <div class="ba-meta">
+          <div class="ba-meta-title">Alloy Refurbishment</div>
+          <div class="ba-meta-sub">Kerb rash &amp; corrosion — factory finish restored</div>
+        </div>
+      </div>
+
+      <!-- Slider 3 -->
+      <div class="ba-card reveal reveal-d3">
+        <div class="ba-slider" data-slider>
+          <div class="ba-before-panel">
+            <img src="img/after full body work.jpeg" alt="Before repair" 
+            style="width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none;">
+          </div>
+          <div class="ba-after-wrapper">
+            <div class="ba-after-panel" style="--panel-w:100%;width:100%">
+              <img src="img/before full body work.jpeg" alt="After repair" 
+              style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none;">
+            </div>
+          </div>
+          <div class="ba-line"></div>
+          <div class="ba-knob">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M6 10L2 7v6l4-3zm8 0l4 3V7l-4 3z" fill="#2563FF"/><line x1="10" y1="2" x2="10" y2="18" stroke="#2563FF" stroke-width="1.5"/></svg>
+          </div>
+          <div class="ba-tag ba-tag-b">BEFORE</div>
+          <div class="ba-tag ba-tag-a">AFTER</div>
+          <div class="ba-hint">← drag to compare →</div>
+        </div>
+        <div class="ba-meta">
+          <div class="ba-meta-title">Bodywork Repair</div>
+          <div class="ba-meta-sub">Full Vehicle OEM — Completely Renewed</div>
+        </div>
+      </div>
+
+      <!-- Slider 4 -->
+      <div class="ba-card reveal reveal-d4">
+        <div class="ba-slider" data-slider>
+          <div class="ba-before-panel">
+            <img src="img/after dent removal.png" alt="Before repair" 
+            style="width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none;">
+          </div>
+          <div class="ba-after-wrapper">
+            <div class="ba-after-panel" style="--panel-w:100%;width:100%">
+              <img src="img/before dent removal.png" alt="After repair" 
+              style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none;">
+            </div>
+          </div>
+          <div class="ba-line"></div>
+          <div class="ba-knob">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M6 10L2 7v6l4-3zm8 0l4 3V7l-4 3z" fill="#2563FF"/><line x1="10" y1="2" x2="10" y2="18" stroke="#2563FF" stroke-width="1.5"/></svg>
+          </div>
+          <div class="ba-tag ba-tag-b">BEFORE</div>
+          <div class="ba-tag ba-tag-a">AFTER</div>
+          <div class="ba-hint">← drag to compare →</div>
+        </div>
+        <div class="ba-meta">
+          <div class="ba-meta-title">Dent Removal</div>
+          <div class="ba-meta-sub">Parking impact dent — PDR restored, no trace left</div>
+        </div>
+      </div>
+
+      <!-- Slider 5 -->
+      <div class="ba-card reveal reveal-d5">
+        <div class="ba-slider" data-slider>
+          <div class="ba-before-panel">
+            <img src="img/after scratch.jpeg" alt="Before repair" 
+            style="width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none;">
+          </div>
+          <div class="ba-after-wrapper">
+            <div class="ba-after-panel" style="--panel-w:100%;width:100%">
+              <img src="img/before scratch.jpeg" alt="After repair" 
+              style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none;">
+            </div>
+          </div>
+          <div class="ba-line"></div>
+          <div class="ba-knob">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M6 10L2 7v6l4-3zm8 0l4 3V7l-4 3z" fill="#2563FF"/><line x1="10" y1="2" x2="10" y2="18" stroke="#2563FF" stroke-width="1.5"/></svg>
+          </div>
+          <div class="ba-tag ba-tag-b">BEFORE</div>
+          <div class="ba-tag ba-tag-a">AFTER</div>
+          <div class="ba-hint">← drag to compare →</div>
+        </div>
+        <div class="ba-meta">
+          <div class="ba-meta-title">Scratch/Scuff Repair</div>
+          <div class="ba-meta-sub">Scratched &amp; scuffed paint — full Scratch removal</div>
+        </div>
+      </div>
+
+      <!-- Slider 6 -->
+      <div class="ba-card reveal reveal-d6">
+        <div class="ba-slider" data-slider>
+          <div class="ba-before-panel">
+            <img src="img/after caliper painting.jpg" alt="Before repair" 
+            style="width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none;">
+          </div>
+          <div class="ba-after-wrapper">
+            <div class="ba-after-panel" style="--panel-w:100%;width:100%">
+              <img src="img/before caliper painting.png" alt="After repair" 
+              style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;pointer-events:none;">
+            </div>
+          </div>
+          <div class="ba-line"></div>
+          <div class="ba-knob">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M6 10L2 7v6l4-3zm8 0l4 3V7l-4 3z" fill="#2563FF"/><line x1="10" y1="2" x2="10" y2="18" stroke="#2563FF" stroke-width="1.5"/></svg>
+          </div>
+          <div class="ba-tag ba-tag-b">BEFORE</div>
+          <div class="ba-tag ba-tag-a">AFTER</div>
+          <div class="ba-hint">← drag to compare →</div>
+        </div>
+        <div class="ba-meta">
+          <div class="ba-meta-title">Caliper Painting</div>
+          <div class="ba-meta-sub">Corroded calipers — refinished in high-temp brand red</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!--═══════════════════════════════════════════
+    WHY CHOOSE
+═══════════════════════════════════════════-->
+<section id="why" class="section">
+  <div class="wrap">
+    <div class="why-grid">
+      <div>
+        <div class="tag reveal">Why Choose Spray Artists</div>
+        <h2 class="reveal">We Do the Job Properly. Every Time.</h2>
+        <p class="lede reveal" style="margin-top:16px">We're not a production-line bodyshop. Every repair gets proper attention, honest advice, and a finish that genuinely matches your car's original paintwork.</p>
+        <div class="why-features">
+          <div class="why-feat reveal reveal-d1">
+            <div class="why-feat-icon">🎯</div>
+            <div class="why-feat-title">Attention to Detail</div>
+            <div class="why-feat-desc">Every panel is colour-matched and blended to an invisible finish. We don't stop until it looks right.</div>
+          </div>
+          <div class="why-feat reveal reveal-d2">
+            <div class="why-feat-icon">💬</div>
+            <div class="why-feat-title">Honest Advice</div>
+            <div class="why-feat-desc">We'll tell you exactly what needs doing — and what doesn't. No unnecessary upselling, ever.</div>
+          </div>
+          <div class="why-feat reveal reveal-d3">
+            <div class="why-feat-icon">💷</div>
+            <div class="why-feat-title">Fair Transparent Pricing</div>
+            <div class="why-feat-desc">Get a clear quote upfront. No surprises when you collect. Competitive rates — not dealership prices.</div>
+          </div>
+          <div class="why-feat reveal reveal-d4">
+            <div class="why-feat-icon">📍</div>
+            <div class="why-feat-title">Local & Trusted</div>
+            <div class="why-feat-desc">Based in Leicester LE5 for over 10 years. Over 87 five-star reviews from local customers speak for themselves.</div>
+          </div>
+          <div class="why-feat reveal reveal-d5">
+            <div class="why-feat-icon">⚡</div>
+            <div class="why-feat-title">Fast Turnaround</div>
+            <div class="why-feat-desc">Most repairs completed within 24–48 hours. We know you need your car back quickly.</div>
+          </div>
+          <div class="why-feat reveal reveal-d6">
+            <div class="why-feat-icon">🛡️</div>
+            <div class="why-feat-title">Customer-First Service</div>
+            <div class="why-feat-desc">From first contact to collection — we keep you informed and make the process as easy as possible.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="why-right">
+        <div class="why-big-stat reveal">
+          <div class="why-big-num">4.9<span>/5</span></div>
+          <div class="why-big-lab">Average Google Rating — 87+ reviews</div>
+          <div style="display:flex;justify-content:center;gap:5px;margin-top:14px">
+            <svg width="22" height="22" fill="#2563FF" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="22" height="22" fill="#2563FF" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="22" height="22" fill="#2563FF" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="22" height="22" fill="#2563FF" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg width="22" height="22" fill="#2563FF" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <p style="color:var(--muted);font-size:13px;margin-top:14px;font-style:italic">"Leicester's most trusted independent bodyshop"</p>
+        </div>
+
+        <div class="why-cta-strip reveal reveal-d1">
+          <div class="why-cta-text">Not sure what your repair will cost? Send us a photo.</div>
+          <p style="color:var(--silver);font-size:14px;margin-bottom:20px">We'll give you an honest quote — usually within the hour.</p>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center">
+            <a href="https://wa.me/447539425759?text=Hi%2C%20I%27d%20like%20a%20quote.%20Here%20are%20photos%20of%20the%20damage." target="_blank" class="btn btn-wa">
+              <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.107.549 4.09 1.512 5.813L.057 23.077a1 1 0 001.194 1.317l5.357-1.397C8.163 23.621 10.043 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.868 0-3.647-.483-5.194-1.334l-.364-.207-3.782.987.992-3.694-.228-.375A9.964 9.964 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+              Send Photos on WhatsApp
+            </a>
+            <a href="tel:+447539425759" class="btn btn-outline">Call Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--═══════════════════════════════════════════
+    REVIEWS
+═══════════════════════════════════════════-->
+<section id="reviews" class="section">
+  <div class="wrap">
+    <div class="reviews-header reveal">
+      <div>
+        <div class="tag">Customer Reviews</div>
+        <h2>What Our Customers Say</h2>
+      </div>
+      <div class="rating-hero">
+        <div class="rating-score">4.9<span>★</span></div>
+        <div class="rating-meta">
+          <div class="rating-stars-row">
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          </div>
+          <div class="rating-count">Rated 4.9/5 by 87+ customers</div>
+          <div class="rating-source">Verified Google Reviews</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reviews-grid">
+      <div class="review-card reveal reveal-d1">
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <div class="review-text">"Had 2 of my cars painted. Fantastic service by the team. Will always use these guys, very honest and trust worthy. Sold both the cars without any issues and made money on top. Will continue to bring all jobs here."</div>
+        <div class="review-author">Akshay Morar</div>
+        <div class="review-car">BMW 3 Series · Full Body Respray</div>
+      </div>
+      <div class="review-card reveal reveal-d2">
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <div class="review-text">"Did a nice job on my alloys and calipers in December 2022, Still going strong to this day
+
+Also flawlessly resprayed scrape on my bumper from another car that happened to coincidentally occur in between when I was waiting for my alloys appointment. All done in the same appointment."</div>
+        <div class="review-author">M Shafiq L</div>
+        <div class="review-car">Audi A3 · Alloy Refurbishment & Bumper Respray</div>
+      </div>
+      <div class="review-card reveal reveal-d3">
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <div class="review-text">"Absolutely amazing bodywork everything OEM, I trusted the reviews and it did not fail used for mine and some family cars."</div>
+        <div class="review-author">Aliand Ali</div>
+        <div class="review-car">Mercedes . Bodywork Repair</div>
+      </div>
+      <div class="review-card reveal reveal-d1">
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <div class="review-text">"Great job on my car from the lads. Ali was great at fixing my problem professionally and fitting my job in without any issues.Positif Professionnalism"</div>
+        <div class="review-author">Saj Khan</div>
+        <div class="review-car">Mercedes-Benz C-Class . Paint & Bodywork</div>
+      </div>
+      <div class="review-card reveal reveal-d2">
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <div class="review-text">"Brilliant job on the Toyota Auris. Looked like a brand new rear bumper. 
+Was given on Wednesday morning and I had the car back by Thursday morning."</div>
+        <div class="review-author">Abu Fatiha</div>
+        <div class="review-car">Toyota Auris . Rear Bumper Repair</div>
+      </div>
+      <div class="review-card reveal reveal-d3">
+        <div class="review-stars">
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <div class="review-text">"Repaired minor dent and door scratches, bonnet scratches, refurbished alloys and spray black. Also offered to paint callipers for free. Excellent service. Would recommend."</div>
+        <div class="review-author">Anthony Memi</div>
+        <div class="review-car">Vehicle · Dent & Scratch Repair · Alloys & Calipers</div>
+      </div>
+    </div>
+
+    <div class="review-cta reveal">
+      <p>Seen enough? Join hundreds of satisfied Leicester customers.</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
+        <a href="#quote" class="btn btn-primary">Get Your Free Quote</a>
+        <a href="https://wa.me/447539425759" target="_blank" class="btn btn-wa">Message on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--═══════════════════════════════════════════
+    PROCESS
+═══════════════════════════════════════════-->
+<section id="process" class="section-sm" style="background:var(--ink2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+  <div class="wrap">
+    <div class="reveal" style="text-align:center;margin-bottom:20px">
+      <div class="tag" style="justify-content:center">How It Works</div>
+      <h2>From Quote to Collected — Simple.</h2>
+      <p class="lede" style="margin:14px auto 0;text-align:center">Getting your car repaired shouldn't be stressful. Here's exactly what to expect.</p>
+    </div>
+    <div class="process-grid">
+      <div class="process-step reveal reveal-d1">
+        <div class="process-num">1</div>
+        <div class="process-title">Send Your Photos</div>
+        <div class="process-desc">Send photos of the damage via WhatsApp or the quote form. We'll assess the repair and get back to you quickly.</div>
+      </div>
+      <div class="process-step reveal reveal-d2">
+        <div class="process-num">2</div>
+        <div class="process-title">Receive an Honest Quote</div>
+        <div class="process-desc">We'll give you a clear, fair quote with no jargon. No obligation to proceed — just honest advice and a straightforward price.</div>
+      </div>
+      <div class="process-step reveal reveal-d3">
+        <div class="process-num">3</div>
+        <div class="process-title">Drop Off &amp; We Get to Work</div>
+        <div class="process-desc">Book your slot and drop your car at our Leicester workshop. We'll keep you updated throughout.</div>
+      </div>
+      <div class="process-step reveal reveal-d4">
+        <div class="process-num">4</div>
+        <div class="process-title">Collect Your Restored Car</div>
+        <div class="process-desc">Pick up your vehicle looking as good as new — or better. Most repairs completed within 24–48 hours.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--═══════════════════════════════════════════
+    AREAS
+═══════════════════════════════════════════-->
+<section id="areas" class="section">
+  <div class="wrap">
+    <div class="tag reveal">Coverage</div>
+    <h2 class="reveal">Serving Leicester &amp; Surrounding Areas</h2>
+    <p class="lede reveal" style="margin-top:12px">Based on Humberstone Road in Leicester (LE5), we serve customers across the city and all surrounding areas. If you're within reasonable distance, we'd love to help.</p>
+
+    <div class="areas-grid">
+      <div>
+        <div class="tag" style="margin-top:32px">Areas We Cover</div>
+        <div class="areas-list">
+          <span class="area-chip primary">Leicester City Centre</span>
+          <span class="area-chip primary">LE5 (Humberstone)</span>
+          <span class="area-chip">Oadby</span>
+          <span class="area-chip">Wigston</span>
+          <span class="area-chip">Birstall</span>
+          <span class="area-chip">Thurmaston</span>
+          <span class="area-chip">Syston</span>
+          <span class="area-chip">Loughborough</span>
+          <span class="area-chip">Hinckley</span>
+          <span class="area-chip">Market Harborough</span>
+          <span class="area-chip">Melton Mowbray</span>
+          <span class="area-chip">Coalville</span>
+          <span class="area-chip">Blaby</span>
+          <span class="area-chip">Glenfield</span>
+          <span class="area-chip">Groby</span>
+          <span class="area-chip">Braunstone Town</span>
+        </div>
+
+        <div class="tag" style="margin-top:40px">Local SEO Pages</div>
+        <div class="seo-tiles">
+          <a href="#quote" class="seo-tile">
+            <div class="seo-tile-title">Bumper Repair Leicester</div>
+            <div class="seo-tile-text">Expert plastic bumper repairs &amp; resprays across Leicester LE1–LE9</div>
+          </a>
+          <a href="#quote" class="seo-tile">
+            <div class="seo-tile-title">Alloy Refurb Leicester</div>
+            <div class="seo-tile-text">Diamond-cut &amp; painted alloy wheel restoration in Leicester</div>
+          </a>
+          <a href="#quote" class="seo-tile">
+            <div class="seo-tile-title">Car Respray Leicester</div>
+            <div class="seo-tile-text">Full &amp; partial vehicle resprays with OEM colour matching</div>
+          </a>
+          <a href="#quote" class="seo-tile">
+            <div class="seo-tile-title">Dent Repair Leicester</div>
+            <div class="seo-tile-text">PDR and traditional dent removal across all Leicester areas</div>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <div class="map-embed reveal">
+          <div class="map-placeholder-icon">📍</div>
+          <div class="map-placeholder-text">Spray Artists Leicester</div>
+          <div class="map-placeholder-sub">125 Humberstone Rd, Leicester LE5 3AP</div>
+          <a href="https://maps.app.goo.gl/Y2R8LLTJj9sXZohT9" target="_blank" class="btn btn-ghost btn-sm" style="margin-top:8px">
+            Open in Google Maps →
+          </a>
+          <div style="width:100%;flex:1;padding:0 16px 16px;display:flex;flex-direction:column">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d19369.611595081136!2d-1.1410869!3d52.6382734!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48776135ee47b3d9%3A0x5cbd36a8f17e7773!2sSpray%20Artists!5e0!3m2!1sfr!2suk!4v1773141240720!5m2!1sfr!2suk" 
+              width="100%"
+              height="100%"
+              style="border:0;border-radius:10px;flex:1;min-height:200px" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Spray Artists Leicester Location map"
+              ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--═══════════════════════════════════════════
+    FAQ
+═══════════════════════════════════════════-->
+<section id="faq" class="section-sm" style="background:var(--ink2);border-top:1px solid var(--border);border-bottom:1px solid var(--border)">
+  <div class="wrap">
+    <div class="reveal" style="text-align:center">
+      <div class="tag" style="justify-content:center">FAQ</div>
+      <h2>Frequently Asked Questions</h2>
+      <p class="lede" style="margin:14px auto 0;text-align:center;max-width:500px">Everything you need to know before getting in touch.</p>
+    </div>
+
+    <div class="faq-grid">
+      <div class="faq-item reveal reveal-d1">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          How do I get a quote? <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>The easiest way is to send us a few photos of the damage via WhatsApp to <strong>+44 7539 425759</strong>, or use our quote form on this page. We'll assess the damage and come back to you with an honest price — usually the same day.</p></div>
+      </div>
+      <div class="faq-item reveal reveal-d2">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          How long do repairs take? <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>Most SMART repairs, bumper repairs and scratches are completed within 24–48 hours. Alloy refurbs are often same day or next day. Larger jobs like full resprays or significant accident damage may take 2–4 days. We'll always give you a realistic timescale when quoting.</p></div>
+      </div>
+      <div class="faq-item reveal reveal-d3">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Will the colour match perfectly? <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>Yes. We use your vehicle's factory paint code to mix colour-matched paint and blend it into the surrounding panels. The result is a seamless finish with no visible repair lines. This is a core part of what we do and we take it seriously.</p></div>
+      </div>
+      <div class="faq-item reveal reveal-d4">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Do you offer insurance work? <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>Yes, we do handle accident damage repairs and can work with your insurance company on the repair. We recommend contacting us directly first so we can assess the damage and advise you on the best route — we'll always be straightforward with you about costs and process.</p></div>
+      </div>
+      <div class="faq-item reveal reveal-d1">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          How much does a bumper repair cost? <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>Bumper repair costs depend on the extent of the damage, the type of bumper and the colour. A minor scuff or paint transfer typically starts from around £80–£120. A larger crack or split with a respray will cost more. Send us photos and we'll give you an exact price.</p></div>
+      </div>
+      <div class="faq-item reveal reveal-d2">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Can you help with lease return repairs? <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>Absolutely — this is very common. Before returning a lease or PCP vehicle, we can repair any scuffs, scratches, dents or alloy damage that would otherwise result in penalty charges from the finance company. Many customers save considerably more than the repair cost.</p></div>
+      </div>
+      <div class="faq-item reveal reveal-d3">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Where are you based? <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>We're based at <strong>125 Humberstone Rd, Leicester LE5 3AP</strong>. We serve customers across Leicester and the surrounding areas including Oadby, Wigston, Birstall, Thurmaston, Loughborough, Hinckley and more. Get in touch if you're unsure whether we cover your area.</p></div>
+      </div>
+      <div class="faq-item reveal reveal-d4">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Do I need to book in advance? <div class="faq-icon">+</div>
+        </button>
+        <div class="faq-a"><p>It's always best to contact us first so we can assess the damage, provide a quote and confirm availability. We try to book most jobs within a few days. Call or WhatsApp us and we'll sort out a convenient time for you.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--═══════════════════════════════════════════
+    QUOTE / CONTACT
+═══════════════════════════════════════════-->
+<section id="quote" class="section">
+  <div class="wrap">
+    <div class="tag reveal">Get in Touch</div>
+    <h2 class="reveal">Get Your Free Quote Today</h2>
+    <p class="lede reveal" style="margin-top:12px;margin-bottom:52px">Send us your details and a description of the work needed. We'll get back to you quickly with an honest, no-obligation quote.</p>
+
+    <div class="quote-grid">
+      <!-- FORM -->
+      <div class="quote-form reveal">
+        <div id="formSuccess" class="form-success">
+          <div class="form-success-icon">✅</div>
+          <div class="form-success-title">Message Received!</div>
+          <div class="form-success-text">Thank you — we'll review your details and get back to you as soon as possible, usually the same day. If it's urgent, call or WhatsApp us directly on <strong>+44 7539 425759</strong>.</div>
+          <button onclick="resetForm()" style="margin-top:24px;background:var(--ink4);border:1px solid var(--border);border-radius:8px;padding:10px 24px;color:var(--silver);cursor:pointer;font-size:13px;font-family:var(--body)">Submit another enquiry</button>
+        </div>
+
+        <form id="quoteForm" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="fname">Your Name *</label>
+              <input class="form-input" type="text" id="fname" name="name" placeholder="First &amp; Last Name" required/>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="fphone">Phone Number *</label>
+              <input class="form-input" type="tel" id="fphone" name="phone" placeholder="+44 7XXX XXXXXX" required/>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="femail">Email Address</label>
+              <input class="form-input" type="email" id="femail" name="email" placeholder="you@email.com"/>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="fvehicle">Vehicle Make &amp; Model *</label>
+              <input class="form-input" type="text" id="fvehicle" name="vehicle" placeholder="e.g. BMW 3 Series 2021" required/>
+            </div>
+            <div class="form-group full">
+              <label class="form-label" for="fservice">Service Required *</label>
+              <select class="form-select" id="fservice" name="service" required>
+                <option value="" disabled selected>Select a service…</option>
+                <option>Bumper Repair</option>
+                <option>Dent Removal</option>
+                <option>Scratch / Scuff Repair</option>
+                <option>Panel Respray</option>
+                <option>Full Car Respray</option>
+                <option>Alloy Refurbishment</option>
+                <option>Caliper Painting</option>
+                <option>Accident Damage Repair</option>
+                <option>SMART Repair</option>
+                <option>Lease Return Prep</option>
+                <option>Not sure — need advice</option>
+              </select>
+            </div>
+            <div class="form-group full">
+              <label class="form-label" for="fmsg">Describe the Damage</label>
+              <textarea class="form-textarea" id="fmsg" name="message" placeholder="Briefly describe the damage, location on the vehicle, and anything else that's useful…"></textarea>
+            </div>
+            <div class="form-group full">
+              <div style="font-size:13px;color:var(--muted);padding:12px 16px;background:var(--ink4);border:1px solid var(--border);border-radius:var(--r);">
+                📷 <strong style="color:var(--silver);">Send photos via WhatsApp (optional)</strong> to <a href="https://wa.me/447539425759" target="_blank" style="color:var(--blue-light);text-decoration:none;">+44 7539 425759</a> after submitting your request.
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg form-submit">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 2L11 13"/><path d="M22 2L15 22 11 13 2 9l20-7z"/></svg>
+            Send My Free Quote Request
+          </button>
+          <div class="form-trust">
+            <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            No obligation. We'll respond as soon as possible — usually the same day.
+          </div>
+        </form>
+      </div>
+
+      <!-- ASIDE -->
+      <div class="quote-aside reveal reveal-d2">
+        <div class="contact-card">
+          <div style="margin-bottom:16px">
+            <div class="quote-aside-heading">Contact Details</div>
+            <div style="font-size:13px;color:var(--muted)">Get in touch directly — whichever way works best for you.</div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-icon">📞</div>
+            <div>
+              <div class="contact-label">Phone</div>
+              <div class="contact-val"><a href="tel:+447539425759">+44 7539 425759</a></div>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-icon">💬</div>
+            <div>
+              <div class="contact-label">WhatsApp</div>
+              <div class="contact-val"><a href="https://wa.me/447539425759" target="_blank">Message us on WhatsApp</a></div>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-val"><a href="mailto:sprayartists@hotmail.com">sprayartists@hotmail.com</a></div>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-icon">📍</div>
+            <div>
+              <div class="contact-label">Address</div>
+              <div class="contact-val">125 Humberstone Rd<br>Leicester LE5 3AP</div>
+            </div>
+          </div>
+          <div style="margin-top:20px;display:flex;gap:10px">
+            <a href="https://wa.me/447539425759" target="_blank" class="btn btn-wa" style="flex:1;justify-content:center;font-size:12px;padding:12px">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.107.549 4.09 1.512 5.813L.057 23.077a1 1 0 001.194 1.317l5.357-1.397C8.163 23.621 10.043 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.868 0-3.647-.483-5.194-1.334l-.364-.207-3.782.987.992-3.694-.228-.375A9.964 9.964 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+              WhatsApp
+            </a>
+            <a href="tel:+447539425759" class="btn btn-ghost" style="flex:1;justify-content:center;font-size:12px;padding:12px">
+              📞 Call
+            </a>
+          </div>
+        </div>
+
+        <div class="hours-card">
+          <div class="quote-aside-heading" style="margin-bottom:16px">Opening Hours</div>
+          <div class="hours-row"><span class="hours-day">Monday</span><span class="hours-time">8:30am – 6:00pm</span></div>
+          <div class="hours-row"><span class="hours-day">Tuesday</span><span class="hours-time">8:30am – 6:00pm</span></div>
+          <div class="hours-row"><span class="hours-day">Wednesday</span><span class="hours-time">8:30am – 6:00pm</span></div>
+          <div class="hours-row"><span class="hours-day">Thursday</span><span class="hours-time">8:30am – 6:00pm</span></div>
+          <div class="hours-row"><span class="hours-day">Friday</span><span class="hours-time">8:30am – 6:00pm</span></div>
+          <div class="hours-row"><span class="hours-day">Saturday</span><span class="hours-time">9:00am – 12:00pm</span></div>
+          <div class="hours-row"><span class="hours-day">Sunday</span><span class="hours-time closed">Closed</span></div>
+          <div style="margin-top:16px;padding:12px;background:var(--blue-dim);border:1px solid rgba(37,99,255,.2);border-radius:10px;font-size:13px;color:var(--silver)">
+            💬 Outside hours? Send a WhatsApp message and we'll respond the next working day.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--═══════════════════════════════════════════
+    FINAL CTA STRIP
+═══════════════════════════════════════════-->
+<section id="cta-strip">
+  <div class="wrap">
+    <div class="cta-strip-inner reveal">
+      <h2 class="cta-strip-h2">Ready to Restore<br><span>Your Vehicle?</span></h2>
+      <p class="cta-strip-sub">Get your free quote today. No obligation, no pressure — just honest pricing and quality work.</p>
+      <div class="cta-strip-btns">
+        <a href="#quote" class="btn btn-primary btn-lg">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+          Get a Free Quote
+        </a>
+        <a href="tel:+447539425759" class="btn btn-outline btn-lg">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.91 2.18 2 2 0 012.91 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+          Call +44 7539 425759
+        </a>
+        <a href="https://wa.me/447539425759?text=Hi%2C%20I'd%20like%20a%20free%20quote%20for%20car%20bodywork." target="_blank" class="btn btn-wa btn-lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.107.549 4.09 1.512 5.813L.057 23.077a1 1 0 001.194 1.317l5.357-1.397C8.163 23.621 10.043 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.868 0-3.647-.483-5.194-1.334l-.364-.207-3.782.987.992-3.694-.228-.375A9.964 9.964 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+          Message on WhatsApp
+        </a>
+      </div>
+      <div class="cta-strip-contact">
+        <div class="cta-contact-item">
+          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.91 2.18 2 2 0 012.91 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+          <a href="tel:+447539425759">+44 7539 425759</a>
+        </div>
+        <div class="cta-contact-item">
+          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:sprayartists@hotmail.com">sprayartists@hotmail.com</a>
+        </div>
+        <div class="cta-contact-item">
+          <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>125 Humberstone Rd, Leicester LE5 3AP</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--═══════════════════════════════════════════
+    FOOTER
+═══════════════════════════════════════════-->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-name">SPRAY ARTISTS</div>
+        <div class="footer-brand-tag">Leicester Bodyshop</div>
+        <div class="footer-brand-desc">Leicester's trusted car body repair and respray specialist. Expert paint, dent, scratch and alloy repairs with OEM-quality finish. Serving Leicester and surrounding areas since 2014.</div>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/sprayartists/" class="footer-social" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.975.975 1.246 2.242 1.308 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.062 1.366-.334 2.633-1.308 3.608-.975.975-2.242 1.246-3.608 1.308-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.334-3.608-1.308-.975-.975-1.246-2.242-1.308-3.608C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608.975-.975 2.242-1.246 3.608-1.308C8.416 2.175 8.796 2.163 12 2.163zm0-2.163c-3.259 0-3.667.014-4.947.072-1.613.074-3.067.49-4.222 1.646C1.676 2.873 1.26 4.327 1.186 5.94 1.128 7.22 1.114 7.628 1.114 12c0 4.372.014 4.78.072 6.06.074 1.613.49 3.067 1.646 4.222 1.155 1.156 2.609 1.572 4.222 1.646C8.333 23.986 8.741 24 12 24c3.259 0 3.667-.014 4.947-.072 1.613-.074 3.067-.49 4.222-1.646 1.156-1.155 1.572-2.609 1.646-4.222.058-1.28.072-1.688.072-6.06 0-4.372-.014-4.78-.072-6.06-.074-1.613-.49-3.067-1.646-4.222C19.014.576 17.56.16 15.947.086 14.667.028 14.259.014 12 .014zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zm0 10.162a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Services</div>
+        <div class="footer-links">
+          <a href="#services">Bumper Repair</a>
+          <a href="#services">Dent Removal</a>
+          <a href="#services">Scratch Repair</a>
+          <a href="#services">Car Resprays</a>
+          <a href="#services">Alloy Refurbishment</a>
+          <a href="#services">Caliper Painting</a>
+          <a href="#services">Accident Damage</a>
+          <a href="#services">SMART Repairs</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Quick Links</div>
+        <div class="footer-links">
+          <a href="#hero">Home</a>
+          <a href="#gallery">Our Work</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#process">How It Works</a>
+          <a href="#areas">Areas Covered</a>
+          <a href="#faq">FAQ</a>
+          <a href="#quote">Get a Quote</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="footer-col-title">Contact</div>
+        <div class="footer-contact-row">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.91 2.18 2 2 0 012.91 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+          <a href="tel:+447539425759">+44 7539 425759</a>
+        </div>
+        <div class="footer-contact-row">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:sprayartists@hotmail.com">sprayartists@hotmail.com</a>
+        </div>
+        <div class="footer-contact-row">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>125 Humberstone Rd<br>Leicester LE5 3AP</span>
+        </div>
+        <div class="footer-contact-row">
+          <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>Mon–Fri 8am–6pm<br>Sat 9am–4pm</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© 2025 Spray Artists. All rights reserved. 125 Humberstone Rd, Leicester LE5 3AP</div>
+      <div class="footer-bottom-kw">Car body repair Leicester · Car respray Leicester · Bumper repair Leicester · Alloy refurbishment Leicester · Dent repair Leicester</div>
+      <div style="margin-top:8px;font-size:12px;opacity:0.55;">Powered by <a href="https://orvexalab.tech" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:underline;font-weight:600;">Orvexa Labs</a></div>
+    </div>
+  </div>
+</footer>
+
+<!--═══════════════════════════════════════════
+    FLOATING BUTTONS (DESKTOP)
+═══════════════════════════════════════════-->
+<div class="float-cluster" role="complementary" aria-label="Quick contact">
+  <div class="float-item">
+    <div class="float-label">Send Photos for a Quote</div>
+    <a href="https://wa.me/447539425759?text=Hi%2C%20I'd%20like%20to%20send%20photos%20for%20a%20quote." target="_blank" rel="noreferrer">
+      <button class="float-btn float-wa" aria-label="WhatsApp Spray Artists">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.107.549 4.09 1.512 5.813L.057 23.077a1 1 0 001.194 1.317l5.357-1.397C8.163 23.621 10.043 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.868 0-3.647-.483-5.194-1.334l-.364-.207-3.782.987.992-3.694-.228-.375A9.964 9.964 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+      </button>
+    </a>
+  </div>
+  <div class="float-item">
+    <div class="float-label">Call Spray Artists</div>
+    <a href="tel:+447539425759">
+      <button class="float-btn float-call" aria-label="Call Spray Artists">
+        <svg width="22" height="22" fill="none" stroke="white" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.91 2.18 2 2 0 012.91 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+      </button>
+    </a>
+  </div>
+</div>
+
+<!--═══════════════════════════════════════════
+    STICKY MOBILE BAR
+═══════════════════════════════════════════-->
+<div class="sticky-mobile" role="complementary" aria-label="Mobile quick contact">
+  <a href="tel:+447539425759" class="sticky-mobile-call">
+    <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.91 2.18 2 2 0 012.91 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/></svg>
+    Call Now
+  </a>
+  <a href="https://wa.me/447539425759?text=Hi%2C%20I'd%20like%20a%20quote." target="_blank" class="sticky-mobile-wa">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.107.549 4.09 1.512 5.813L.057 23.077a1 1 0 001.194 1.317l5.357-1.397C8.163 23.621 10.043 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.868 0-3.647-.483-5.194-1.334l-.364-.207-3.782.987.992-3.694-.228-.375A9.964 9.964 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+    WhatsApp
+  </a>
+</div>
+
+<!--═══════════════════════════════════════════
+    JAVASCRIPT
+═══════════════════════════════════════════-->
+<script>
+// ── NAV SCROLL ──────────────────────────────────────────────
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  nav.classList.toggle('solid', window.scrollY > 60);
+}, {passive: true});
+
+// ── MOBILE NAV ──────────────────────────────────────────────
+const hamburger = document.getElementById('hamburger');
+const mobileNav = document.getElementById('mobileNav');
+hamburger.addEventListener('click', () => {
+  mobileNav.classList.toggle('open');
+});
+function closeMobileNav() {
+  mobileNav.classList.remove('open');
+}
+
+// ── SCROLL REVEAL (IntersectionObserver) ───────────────────
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.classList.add('in');
+      observer.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// ── BEFORE / AFTER SLIDERS ──────────────────────────────────
+document.querySelectorAll('[data-slider]').forEach(slider => {
+  const afterWrapper = slider.querySelector('.ba-after-wrapper');
+  const afterPanel   = slider.querySelector('.ba-after-panel');
+  const dividerLine  = slider.querySelector('.ba-line');
+  const knob         = slider.querySelector('.ba-knob');
+  const hint         = slider.querySelector('.ba-hint');
+  let dragging = false;
+
+  function getFullWidth() {
+    return slider.getBoundingClientRect().width;
+  }
+
+  function syncPanelWidth() {
+    afterPanel.style.setProperty('--panel-w', getFullWidth() + 'px');
+    afterPanel.style.width = getFullWidth() + 'px';
+  }
+  syncPanelWidth();
+  window.addEventListener('resize', syncPanelWidth, {passive:true});
+
+  function setPosition(clientX) {
+    const rect  = slider.getBoundingClientRect();
+    let   x     = Math.max(4, Math.min(clientX - rect.left, rect.width - 4));
+    const pct   = (x / rect.width) * 100;
+    afterWrapper.style.width = pct + '%';
+    dividerLine.style.left   = pct + '%';
+    if (hint) hint.style.opacity = '0';
+  }
+
+  slider.addEventListener('mousedown', e => { dragging = true; setPosition(e.clientX); });
+  window.addEventListener('mousemove', e => { if (dragging) setPosition(e.clientX); });
+  window.addEventListener('mouseup',   () => { dragging = false; });
+
+  slider.addEventListener('touchstart', e => {
+    dragging = true;
+    setPosition(e.touches[0].clientX);
+  }, {passive: true});
+  slider.addEventListener('touchmove', e => {
+    if (dragging) setPosition(e.touches[0].clientX);
+  }, {passive: true});
+  slider.addEventListener('touchend', () => { dragging = false; });
+});
+
+// ── FAQ ACCORDION ───────────────────────────────────────────
+function toggleFaq(btn) {
+  const answer = btn.nextElementSibling;
+  const isOpen = answer.classList.contains('open');
+
+  // Close all
+  document.querySelectorAll('.faq-a').forEach(a => a.classList.remove('open'));
+  document.querySelectorAll('.faq-q').forEach(q => q.classList.remove('open'));
+
+  if (!isOpen) {
+    answer.classList.add('open');
+    btn.classList.add('open');
+  }
+}
+
+// ── QUOTE FORM ──────────────────────────────────────────────
+async function handleSubmit(e) {
+  e.preventDefault();
+  const form    = document.getElementById('quoteForm');
+  const success = document.getElementById('formSuccess');
+  const btn     = form.querySelector('button[type="submit"]');
+
+  btn.disabled    = true;
+  btn.textContent = 'Sending…';
+
+  const data = new FormData(form);
+  data.delete('photos'); // file uploads not supported on free plan — users send via WhatsApp
+
+  try {
+    const res = await fetch('https://formspree.io/f/mykblnlq', {
+      method:  'POST',
+      body:    data,
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (res.ok) {
+      form.style.display    = 'none';
+      success.style.display = 'block';
+      success.classList.add('show');
+      window.scrollTo({top: document.getElementById('quote').offsetTop - 80, behavior: 'smooth'});
+    } else {
+      const body = await res.json().catch(() => ({}));
+      console.error('Formspree error:', res.status, body);
+      btn.disabled    = false;
+      btn.textContent = 'Send My Free Quote Request';
+      alert('Something went wrong. Please try again or contact us directly.');
+    }
+  } catch (err) {
+    btn.disabled    = false;
+    btn.textContent = 'Send My Free Quote Request';
+    alert('Network error. Please check your connection and try again.');
+  }
+}
+
+function resetForm() {
+  const form    = document.getElementById('quoteForm');
+  const success = document.getElementById('formSuccess');
+  form.reset();
+  form.style.display      = '';
+  success.style.display   = 'none';
+  success.classList.remove('show');
+}
+
+function updateFileLabel(input) {
+  const display = document.getElementById('fileNames');
+  if (input.files.length === 0) { display.textContent = ''; return; }
+  const names = Array.from(input.files).map(f => f.name).join(', ');
+  display.textContent = `📎 ${input.files.length} file${input.files.length > 1 ? 's' : ''} selected: ${names}`;
+}
+
+// ── SMOOTH ANCHOR SCROLL ────────────────────────────────────
+document.querySelectorAll('a[href^="#"]').forEach(a => {
+  a.addEventListener('click', e => {
+    const target = document.querySelector(a.getAttribute('href'));
+    if (!target) return;
+    e.preventDefault();
+    const offset = 80;
+    const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+    window.scrollTo({top, behavior: 'smooth'});
+  });
+});
+</script>
+</body>
+</html>
